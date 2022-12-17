@@ -3,6 +3,7 @@ const svgToDataUri = require('mini-svg-data-uri');
 const { default: flattenColorPalette } = require('tailwindcss/lib/util/flattenColorPalette');
 
 module.exports = {
+  mode: 'jit',
   experimental: {
     optimizeUniversalDefaults: true,
   },
@@ -44,6 +45,10 @@ module.exports = {
         code: {
           highlight: 'rgb(125 211 252 / 0.1)',
         },
+        borabayBrown: '#B07161',
+        borabayLightBrown: '#DCD1CA',
+        borabayDarkBrown: '#716765',
+        borabayImpureWhite: '#F9F6F7',
       },
       typography: (theme) => ({
         DEFAULT: {
