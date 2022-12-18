@@ -230,6 +230,7 @@ module.exports = {
         source: ['Source Sans Pro', ...defaultTheme.fontFamily.sans],
         'ubuntu-mono': ['Ubuntu Mono', ...defaultTheme.fontFamily.mono],
         montserrat: ['Montserrat'],
+        hindguntur: ['hindguntur'],
       },
       spacing: {
         18: '4.5rem',
