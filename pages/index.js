@@ -5,6 +5,7 @@ import Home from './home'
 import AboutUs from './about-us';
 import Services from './services';
 import FindUs from './find-us';
+import BrandSponsors from './brand-sponsors';
 
 export default function WebsiteHome() {
   return (
@@ -13,6 +14,7 @@ export default function WebsiteHome() {
       <Home />
       <AboutUs />
       <Services />
+      <BrandSponsors />
       <FindUs />
     </div>
   );

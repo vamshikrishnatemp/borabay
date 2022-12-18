@@ -7,6 +7,7 @@ export default function Navbar() {
       <Link className={`cursor-pointer text-borabayDarkBrown`} activeClass='active' to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
       <Link className={`cursor-pointer text-borabayDarkBrown`} activeClass='active' to="about-us" spy={true} smooth={true} offset={0} duration={500}>About Us</Link>
       <Link className={`cursor-pointer text-borabayDarkBrown`} activeClass='active' to="services" spy={true} smooth={true} offset={0} duration={500}>Services</Link>
+      <Link className={`cursor-pointer text-borabayDarkBrown`} activeClass='active' to="brand-sponsors" spy={true} smooth={true} offset={0} duration={500}>Brand Sponsors</Link>
       <Link className={`cursor-pointer text-borabayDarkBrown`} activeClass='active' to="find-us" spy={true} smooth={true} offset={0} duration={500}>Find Us</Link>
     </div>
   )
