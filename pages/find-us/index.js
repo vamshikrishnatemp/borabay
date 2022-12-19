@@ -4,12 +4,14 @@ import Image from 'next/image';
 
 function FindUs(props) {
     return (
-        <div className={`w-full h-full py-6 px-24 flex flex-col justify-center items-center gap-6 bg-borabayImpureWhite`} id='find-us'>
+        <div className={`w-full h-full py-6 px-6 md:px-24 flex flex-col justify-center items-center gap-6 bg-borabayImpureWhite`} id='find-us'>
             <span className='self-start text-borabayBrown font-normal text-3xl'>Find Us</span>
-            <div className='w-full h-[90%] flex flex-row flex-wrap md:flex-nowrap gap-24'>
-                <div className='w-[90%] md:w-[60%] h-[50%] md:h-[100%] border'></div>
-                <div className='w-[40%] h-[100%] flex flex-col justify-evenly'>
-                    <div className='flex flex-col gap-3'>
+            <div className='w-full h-[90%] flex flex-row flex-wrap md:flex-nowrap gap-6 md:gap-24 justify-center items-center'>
+                <div className='w-[90%] md:w-[60%] h-[40%] md:h-[90%] border'>
+                    <iframe className='w-full h-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30452.31903589785!2d78.3435487747192!3d17.433855449308652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93bd18410b0f%3A0x8d7e3fea891858ce!2sT-Hub!5e0!3m2!1sen!2sin!4v1671427177786!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div className='w-[90%] h-[60%] md:w-[40%] md:h-[90%] flex flex-col justify-between'>
+                    <div className='flex flex-col md:gap-3'>
                         <span className='text-borabayBrown font-normal text-2xl'>{"Address :"}</span>
                         <div>
                             <span className='text-borabayDarkBrown font-normal text-xl'>Experience the luxury at Borabay the Salon,</span><br />
@@ -18,18 +20,18 @@ function FindUs(props) {
                             <span className='text-borabayDarkBrown font-normal text-xl'>Hyderabad-500032</span>
                         </div>
                     </div>
-                    <div className='flex flex-col gap-3'>
+                    <div className='flex flex-col md:gap-3'>
                         <span className='text-borabayBrown font-normal text-2xl'>{"Call us :"}</span>
                         <div>
                             <span className='text-borabayDarkBrown font-normal text-xl'>{'+91 1234567890'}</span><br />
                             <span className='text-borabayDarkBrown font-normal text-xl'>{'+91 1234567890'}</span><br />
                         </div>
                     </div>
-                    <div className='flex flex-col gap-3'>
+                    <div className='flex flex-col md:gap-3'>
                         <span className='text-borabayBrown font-normal text-2xl'>{"Mail us :"}</span>
                         <span className='text-borabayDarkBrown font-normal text-xl'>BusinessmailId@gmail.com</span>
                     </div>
-                    <div className='flex flex-col gap-3'>
+                    <div className='flex flex-row md:flex-col gap-6 md:gap-3'>
                         <span className='text-borabayBrown font-normal text-2xl'>{"Socials :"}</span>
                         <div className='flex flex-row items-center gap-6'>
                             <Link href='#'><a><svg className="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
