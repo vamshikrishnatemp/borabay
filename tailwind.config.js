@@ -231,6 +231,7 @@ module.exports = {
         'ubuntu-mono': ['Ubuntu Mono', ...defaultTheme.fontFamily.mono],
         montserrat: ['Montserrat'],
         hindguntur: ['hindguntur'],
+        rubik: ['Rubik Gemstones'],
       },
       spacing: {
         18: '4.5rem',
