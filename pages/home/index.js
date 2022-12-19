@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Home(props) {
     return (
-        <div className={`relative w-full h-full flex flex-col justify-center items-center bg-borabayLightBrown`} id='home' >
+        <div className={`relative w-screen h-screen flex flex-col justify-center items-center bg-borabayLightBrown`} id='home' >
             <div className='absolute -top-8 left-20'>
                 <Image src={require('../../public/icons/Logo.png')} height={100} width={120} alt='Logo' />
             </div>

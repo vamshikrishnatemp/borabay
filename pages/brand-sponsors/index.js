@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function BrandSponsors(props) {
     return (
-        <div className={`w-full h-full py-6 px-24 flex flex-col justify-center items-center bg-borabayImpureWhite border`} id='brand-sponsors'>
+        <div className={`w-screen h-screen py-6 px-24 flex flex-col justify-center items-center bg-borabayImpureWhite border`} id='brand-sponsors'>
             <span className='self-start text-borabayBrown font-normal text-3xl'>Founders</span>
             <div className='w-full h-[40%] mt-6 flex flex-row gap-24'>
                 <div className='w-[60%]'>

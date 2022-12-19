@@ -9,7 +9,7 @@ import BrandSponsors from './brand-sponsors';
 
 export default function WebsiteHome() {
   return (
-    <div className='h-screen w-screen custom-scroll'>
+    <div className='h-screen w-screen scroll-smooth overflow-y-auto overflow-x-hidden custom-scroll'>
       <Navbar />
       <Home />
       <AboutUs />

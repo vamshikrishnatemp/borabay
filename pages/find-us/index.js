@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function FindUs(props) {
     return (
-        <div className={`w-full h-full py-6 px-6 md:px-24 flex flex-col justify-center items-center gap-6 bg-borabayImpureWhite`} id='find-us'>
+        <div className={`w-screen h-screen py-6 px-6 md:px-24 flex flex-col justify-center items-center gap-6 bg-borabayImpureWhite`} id='find-us'>
             <span className='self-start text-borabayBrown font-normal text-3xl'>Find Us</span>
             <div className='w-full h-[90%] flex flex-row flex-wrap md:flex-nowrap gap-6 md:gap-24 justify-center items-center'>
                 <div className='w-[90%] md:w-[60%] h-[40%] md:h-[90%] border'>
