@@ -259,6 +259,7 @@ module.exports = {
             <polygon points="0,2 1,3 2.4,3 0,0.6"/>
           </svg>`,
         )}")`,
+        'blurred-girl': "url('/public/icons/blurred-girl.png')"
       }),
     },
   },

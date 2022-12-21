@@ -24,6 +24,10 @@ body {
   margin: 0;
 }
 
+.bg-img {
+  background-image: url("blurred-girl.png");
+}
+
 /* width */
 .custom-scroll::-webkit-scrollbar {
   width: 5px;

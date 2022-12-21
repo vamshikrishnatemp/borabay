@@ -8,7 +8,7 @@ function BrandSponsors(props) {
             <div className='w-full h-[40%] flex flex-row justify-between items-center'>
                 <span className='w-full sm:w-[50%] text-borabayDarkBrown font-normal font-playfairdisplay text-lg sm:text-xl text-center sm:text-left'>Borabay is the brainchild of USA return Dr. Anu Karjela, who has 20+ years of experience in the medical world. She is an ardent observer of cosmetic treatments encouraged around the globe and aims to introduce the best salon experience in the Indian market through her new venture.</span>
                 <div className='w-[40%] h-[100%] hidden sm:flex sm:justify-end'>
-                    <Image src={require('../../public/icons/makeup-girl.png')} height={350} width={300} alt='makeup-girl' />
+                    <Image className='rounded-xl' src={require('../../public/icons/girl-in-sofa.JPG')} height={350} width={300} alt='makeup-girl' />
                 </div>
             </div>
             <span className='text-borabayBrown font-normal text-2xl sm:text-3xl font-archane'>{"Partnered with the World’s Best Brands"}</span>
