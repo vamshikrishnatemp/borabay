@@ -5,7 +5,7 @@ import { Modal } from '../../src/components/modal';
 function Home(props) {
     const [openMenu, setOpenMenu] = useState(false);
     return (
-        <div className={`relative w-screen h-screen flex flex-col pt-[70px] sm:pt-0 justify-center items-center bg-borabayLightBrown`} id='home' >
+        <div className={`relative w-screen h-screen flex flex-col pt-[70px] sm:pt-0 sm:justify-center items-center bg-borabayLightBrown`} id='home' >
             <div className='absolute w-[60px] h-[45px] top-5 left-5 flex justify-center items-center lg:hidden'>
                 <Image className='w-full h-full' src={require('../../public/icons/Logo.png')} alt='Logo' />
             </div>
@@ -13,7 +13,7 @@ function Home(props) {
                 <Image src={require('../../public/icons/ham-menu.png')} height={25} width={40} alt='ham-menu' />
             </button>
             {openMenu && <Modal onCloseClick={setOpenMenu} />}
-            <div className='w-[70%] sm:w-[400px] flex flex-col sm:mr-[8%] lg:mr-0 justify-center sm:self-end lg:self-center items-center gap-3'>
+            <div className='w-[70%] sm:w-[400px] flex flex-col sm:mr-[8%] lg:mr-0 justify-center sm:self-end lg:self-center items-center gap-2'>
                 <span className={`text-borabayDarkBrown font-normal text-lg sm:text-xl text-center font-montserrat`}>Experience Beauty In-Depth  at</span>
                 <span className={`text-borabayBrown font-normal text-3xl sm:text-7xl font-higuen`}>Borabay</span>
                 <span className={`text-borabayBrown text-lg sm:text-xl sm:tracking-[.60em] font-hindguntur`}>THE SALON</span>
@@ -29,6 +29,9 @@ function Home(props) {
             </div>
             <div className='absolute right-0 -bottom-[0px] hidden lg:flex'>
                 <Image src={require('../../public/icons/white-top-girl.png')} height={700} width={370} alt='white-top-girl' />
+            </div>
+            <div className='absolute bottom-0 flex sm:hidden'>
+                <Image src={require('../../public/icons/white-top-girl-uncroped.png')} height={300} width={270} alt='white-top-girl-uncroped' />
             </div>
         </div >
     );
