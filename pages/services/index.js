@@ -34,7 +34,7 @@ function Services(props) {
     return (
         <div className={`w-screen h-screen p-6 flex flex-col gap-4 lg:gap-24 items-center bg-borabayImpureWhite border`} id='services'>
             <span className='text-borabayBrown font-normal font-archane text-2xl sm:text-3xl'>Our Services</span>
-            <div className='invisible w-0 h-0 lg:visible lg:w-full lg:h-[400px] pt-20'>
+            <div className='invisible w-0 h-0 lg:visible lg:w-full lg:h-[400px] pt-[10%]'>
                 <Slider {...settings}>
                     <div className='p-8 flex flex-col justify-center items-center'>
                         <div className='flex justify-center items-center'>
