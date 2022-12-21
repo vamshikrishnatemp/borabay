@@ -4,14 +4,14 @@ import Image from 'next/image';
 function BrandSponsors(props) {
     return (
         <div className={`w-screen h-max py-6 px-6 md:px-24 flex flex-col justify-center items-center bg-borabayImpureWhite border gap-8`} id='brand-sponsors'>
-            <span className='self-center md:self-start text-borabayBrown font-normal text-3xl font-archane'>Founders</span>
+            <span className='self-center md:self-start text-borabayBrown font-normal text-2xl sm:text-3xl font-archane'>Founders</span>
             <div className='w-full h-[40%] flex flex-row justify-between items-center'>
-                <span className='w-full sm:w-[50%] text-borabayDarkBrown font-normal font-playfairdisplay text-xl text-center sm:text-left'>Borabay is the brainchild of USA return Dr. Anu Karjela, who has 20+ years of experience in the medical world. She is an ardent observer of cosmetic treatments encouraged around the globe and aims to introduce the best salon experience in the Indian market through her new venture.</span>
+                <span className='w-full sm:w-[50%] text-borabayDarkBrown font-normal font-playfairdisplay text-lg sm:text-xl text-center sm:text-left'>Borabay is the brainchild of USA return Dr. Anu Karjela, who has 20+ years of experience in the medical world. She is an ardent observer of cosmetic treatments encouraged around the globe and aims to introduce the best salon experience in the Indian market through her new venture.</span>
                 <div className='w-[40%] h-[100%] hidden sm:flex sm:justify-end'>
                     <Image src={require('../../public/icons/makeup-girl.png')} height={350} width={300} alt='makeup-girl' />
                 </div>
             </div>
-            <span className='text-borabayBrown font-normal text-3xl font-archane'>{"Partnered with the World’s Best Brands"}</span>
+            <span className='text-borabayBrown font-normal text-2xl sm:text-3xl font-archane'>{"Partnered with the World’s Best Brands"}</span>
             <div className='w-full lg:my-8 flex flex-row justify-evenly items-center flex-wrap md:flex-nowrap gap-12'>
                 <div className='w-[100px] h-[100px] flex justify-center items-center'>
                     <Image src={require('../../public/brand-logos/logo-01@2x.svg')} height={100} width={100} alt='loreal-logo' />
