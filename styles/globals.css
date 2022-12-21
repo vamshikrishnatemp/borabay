@@ -1,12 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
 @font-face {
   font-family: 'hindguntur';
-  src: local('hindguntur'), url(./fonts/HINDGUNTUR-REGULAR.TTF) format('ttf');
+  src: local('hindguntur'), url(./fonts/HINDGUNTUR-REGULAR.TTF) format('truetype');
 }
+@font-face {
+  font-family: 'higuen';
+  src: local('higuen'), url(./fonts/HIGUEN-SERIF.OTF) format('opentype');
+}
+@font-face {
+  font-family: 'archane';
+  src: local('archane'), url(./fonts/ARCHANE.TTF) format('truetype');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 html,
 body {
