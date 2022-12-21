@@ -14,24 +14,24 @@ function Home(props) {
             </button>
             {openMenu && <Modal onCloseClick={setOpenMenu} />}
             <div className='w-[70%] sm:w-[400px] flex flex-col sm:mr-[8%] lg:mr-0 justify-center sm:self-end lg:self-center items-center gap-3'>
-                <span className={`py-3 text-borabayDarkBrown font-normal text-xl sm:text-2xl text-center font-montserrat`}>Experience Beauty In-Depth  at</span>
+                <span className={`text-borabayDarkBrown font-normal text-xl sm:text-2xl text-center font-montserrat`}>Experience Beauty In-Depth  at</span>
                 <span className={`text-borabayBrown font-normal text-4xl sm:text-8xl font-higuen`}>Borabay</span>
                 <span className={`text-borabayBrown text-xl sm:text-2xl sm:tracking-[.60em] font-hindguntur`}>THE SALON</span>
-                <span className={`py-3 text-borabayDarkBrown font-normal text-xl sm:text-2xl text-center font-montserrat`}>Where nature and science interact to concept encompassing beauty solutions</span>
+                <span className={`text-borabayDarkBrown font-normal text-xl sm:text-2xl text-center font-montserrat`}>Where nature and science interact to concept encompassing beauty solutions</span>
                 <div className='pt-[100px] hidden lg:flex flex-col items-center justify-center gap-2'>
                     <span className={`text-borabayBrown font-normal text-2xl font-montserrat`}>Scroll</span>
                     <Image src={require('../../public/icons/down_arrow.png')} height={70} width={70} alt='Down-Arrow' />
                 </div>
             </div>
-            <div className='absolute left-0 bottom-0 h-[80%] w-[60%] hidden sm:flex items-end'>
-                <Image src={require('../../public/icons/green-leafed-girl.png')} height={700} width={380} alt='green-leafed-girl' />
+            <div className='absolute left-0 bottom-0 h-[70%] w-[50%] hidden sm:flex items-end'>
+                <Image src={require('../../public/icons/green-leafed-girl.png')} height={650} width={370} alt='green-leafed-girl' />
                 {/* <img src='../../public/icons/green-leafed-girl.png' style={{ height: '100px', width: '100px' }} alt='green-leafed-girl' /> */}
             </div>
             <div className='absolute right-0 -bottom-[0px] hidden lg:flex'>
-                <Image src={require('../../public/icons/white-top-girl.png')} height={750} width={370} alt='white-top-girl' />
+                <Image src={require('../../public/icons/white-top-girl.png')} height={700} width={370} alt='white-top-girl' />
             </div>
-            <div className='absolute -bottom-[5px] sm:hidden'>
-                <Image src={require('../../public/icons/white-top-girl-uncroped.png')} height={400} width={270} alt='white-top-girl' />
+            <div className='absolute h-[40%] bottom-0 flex items-end sm:hidden'>
+                <Image src={require('../../public/icons/white-top-girl-uncroped.png')} height={300} width={250} alt='white-top-girl' />
             </div>
         </div >
     );
