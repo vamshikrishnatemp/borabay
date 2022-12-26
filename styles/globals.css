@@ -7,7 +7,10 @@
 }
 @font-face {
   font-family: 'higuen';
-  src: local('higuen'), url(./fonts/HIGUEN-SERIF.OTF) format('opentype');
+  src: local('higuen'), url(./fonts/HIGUEN-SERIF.OTF) format('opentype'),
+        url(./fonts/Higuen-Regular.woff) format('woff'),
+        url(./fonts/Higuen-Regular.woff2) format('woff2'),
+        url(./fonts/Higuen-Regular.eot);
 }
 @font-face {
   font-family: 'archane';
